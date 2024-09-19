@@ -1,0 +1,40 @@
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 40px;
+  color: rgb(2, 2, 62);
+  text-decoration: underline;
+  font-weight: bold;
+}
+.book-container {
+  display: flex;
+  justify-content: space-between;
+}
+.favorites {
+  background-color: aquamarine;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem;
+}
+img {
+  width: 92%;
+  height: auto;
+}
+h2 {
+  font-family: cursive;
+  font-size: 25px;
+  color: darkblue;
+}
+p {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: midnightblue;
+}
+.favorites:hover {
+  border: red 1px solid;
+}
